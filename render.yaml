@@ -27,3 +27,4 @@ services:
     region: oregon
     plan: free
     maxmemoryPolicy: allkeys-lru
+    ipAllowList: []  # Empty array means only services in this blueprint can connect
